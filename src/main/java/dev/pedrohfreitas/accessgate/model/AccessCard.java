@@ -50,5 +50,5 @@ public class AccessCard {
 	private StatusCodeEnum status = StatusCodeEnum.INACTIVE;
 
 	@OneToMany(mappedBy = "accessCard")
-	Set<AccessCardRules> accessRules;
+	private Set<AccessCardRules> accessRules;
 }

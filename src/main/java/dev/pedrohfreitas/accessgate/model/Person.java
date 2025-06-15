@@ -1,6 +1,6 @@
 package dev.pedrohfreitas.accessgate.model;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.Set;
 
 import dev.pedrohfreitas.accessgate.enums.PersonTypeEnum;
@@ -38,7 +38,7 @@ public class Person {
 	@Column(length = 100)
 	private String identityDocument;
 
-	private LocalDateTime dateOfBirth;
+	private Date dateOfBirth;
 
 	@Builder.Default
 	@Column(nullable = false)
@@ -51,9 +51,9 @@ public class Person {
 	private StatusCodeEnum status;
 
 	@OneToMany(mappedBy = "person")
-	Set<AccessCard> accessCards;
+	private Set<AccessCard> accessCards;
 
 	@OneToMany(mappedBy = "person")
-	Set<PersonAccessRules> accessRules;
+	private Set<PersonAccessRules> accessRules;
 
 }

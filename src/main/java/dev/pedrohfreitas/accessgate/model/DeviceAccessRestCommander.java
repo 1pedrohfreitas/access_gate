@@ -1,7 +1,5 @@
 package dev.pedrohfreitas.accessgate.model;
 
-import org.springframework.http.HttpMethod;
-
 import dev.pedrohfreitas.accessgate.enums.HttpTypeRequestEnum;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

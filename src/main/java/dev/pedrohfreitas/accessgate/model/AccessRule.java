@@ -31,13 +31,13 @@ public class AccessRule {
 	private String name;
 
 	@OneToMany(mappedBy = "accessRule")
-	Set<AccessCardRules> accessCards;
+	private Set<AccessCardRules> accessCards;
 	
 	@OneToMany(mappedBy = "accessRule")
-	Set<DeviceAccessRules> devices;
+	private Set<DeviceAccessRules> devices;
 	
 	@OneToMany(mappedBy = "accessRule")
-	Set<PersonAccessRules> people;
+	private Set<PersonAccessRules> people;
 	
 	@Builder.Default
 	@Column(nullable = false)
