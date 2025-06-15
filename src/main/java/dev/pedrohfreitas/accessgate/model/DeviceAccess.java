@@ -39,9 +39,9 @@ public class DeviceAccess {
 	private StatusCodeEnum status = StatusCodeEnum.INACTIVE;
 
 	@OneToMany(mappedBy = "deviceAccess")
-	Set<DeviceAccessRestCommander> deviceAccessRestCommanders;
+	private Set<DeviceAccessRestCommander> deviceAccessRestCommanders;
 
 	@OneToMany(mappedBy = "deviceAccess")
-	Set<DeviceAccessRules> accessRules;
+	private Set<DeviceAccessRules> accessRules;
 
 }

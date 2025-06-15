@@ -11,11 +11,11 @@ O **AccessGate** é uma API desenvolvida com foco em segurança e controle de ac
 ## ✅ Funcionalidades
 
 ### 📌 Módulo: Pessoas
-- [ ] Cadastro de pessoas
-- [ ] Atualização de dados de pessoas
-- [ ] Consulta de pessoas por ID, nome ou documento
-- [ ] Exclusão lógica de pessoas
-- [ ] Listagem paginada de pessoas
+- [X] Cadastro de pessoas
+- [X] Atualização de dados de pessoas
+- [X] Consulta de pessoas por ID, nome ou documento
+- [X] Exclusão lógica de pessoas
+- [X] Listagem paginada de pessoas
 
 ### 📌 Módulo: Equipamentos
 - [ ] Cadastro de equipamentos (ex: portas, catracas, dispositivos de leitura)
